@@ -1,169 +1,422 @@
 <!DOCTYPE html>
 <html>
-<title>CV Nik Hanis</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="./images/CV Logo.jpg" type="image/svg+xml">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="./index.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: Arial, Helvetica, sans-serif;}
-</style>
-<body class="w3-light-grey">
+  <title>CV Nik Hanis</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="./images/CV Logo.jpg" type="image/svg+xml" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="./index.css" />
+  <style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+  <body class="w3-light-grey">
+    <div class="topnav" id="myTopnav">
+      <a href="#profile" class="active">Profile</a>
+      <a href="#education">Education</a>
+      <a href="#project">Project</a>
+      <a href="#job">Job Experience</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
-  <div class="topnav" id="myTopnav">
-    <a href="#profile" class="active">Profile</a>
-    <a href="#education">Education</a>
-    <a href="#project">Project</a>
-    <a href="#job">Job Experience</a>
-    <a href="#contact">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-
-  <script src="index.js"></script>
-
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
     
-      <div class="w3-white w3-text-grey w3-card-4" >
-        <div class="w3-display-container" >
-          <img src="./images/Profile.png" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-white">
-            <h2 class ="w3-text-white w3-hide-medium w3-hide-small w3-xxlarge">Nik Mohamad Hanis bin Nik Yahya</h2>
-            <h2 class ="w3-text-white w3-hide-large w3-hide-small w3-large">Nik Mohamad Hanis bin Nik Yahya</h2>
-            <h2 class ="w3-text-white w3-hide-medium w3-hide-large w3-xlarge">Nik Mohamad Hanis bin Nik Yahya</h2>
+    <style>
+      .collapsible {
+        background-color: #3F51B5;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #1b2977;
+      }
+      
+      .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+      </style>
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width: 1400px">
+      <!-- The Grid -->
+      <div class="w3-row-padding">
+        <!-- Left Column -->
+        <div class="w3-third">
+          <div class="w3-white w3-text-grey w3-card-4">
+            <div class="w3-display-container" id="profile">
+              <img
+                src="./images/Profile.png"
+                style="width: 100%"
+                alt="Avatar"
+              />
+              <div class="w3-display-bottomleft w3-container w3-text-white">
+                <h2
+                  class="w3-text-white w3-hide-medium w3-hide-small w3-xxlarge"
+                >
+                  Nik Mohamad Hanis bin Nik Yahya
+                </h2>
+                <h2 class="w3-text-white w3-hide-large w3-hide-small w3-large">
+                  Nik Mohamad Hanis bin Nik Yahya
+                </h2>
+                <h2
+                  class="w3-text-white w3-hide-medium w3-hide-large w3-xlarge"
+                >
+                  Nik Mohamad Hanis bin Nik Yahya
+                </h2>
+              </div>
+            </div>
+
+            <div class="w3-container w3-indigo" id="profile">
+              <p>
+                Information Technology student. I consider my self a responsible
+                and orderly person. I am looking forward for my great experience
+                with your team.
+              </p>
+              <p>
+                <i
+                  class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-light-blue"
+                ></i
+                >Full-time Student
+              </p>
+              <p>
+                <i
+                  class="fa fa-home fa-fw w3-margin-right w3-large w3-text-light-blue"
+                ></i
+                >Kluang, Johor
+              </p>
+              <p>
+                <i
+                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-light-blue"
+                ></i
+                >hanisnik@gmail.com
+              </p>
+              <p>
+                <i
+                  class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-light-blue"
+                ></i
+                >017-440 7540
+              </p>
+              <hr />
+
+              <p class="w3-large">
+                <b
+                  ><i
+                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-light-blue"
+                  ></i
+                  >Skills</b
+                >
+              </p>
+              <p>Coding</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-light-blue"
+                  style="width: 80%"
+                >
+                  80%
+                </div>
+              </div>
+              <p>Routing Network</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-light-blue"
+                  style="width: 80%"
+                >
+                  80%
+                </div>
+              </div>
+              <p>Network Configuration</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-light-blue"
+                  style="width: 70%"
+                >
+                  70%
+                </div>
+              </div>
+              <p>Troubleshooting</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-light-blue"
+                  style="width: 50%"
+                >
+                  50%
+                </div>
+              </div>
+              <br />
+              <hr />
+
+              <p class="w3-large">
+                <b
+                  ><i
+                    class="fa fa-globe fa-fw w3-margin-right w3-text-light-blue"
+                  ></i
+                  >Languages</b
+                >
+              </p>
+              <p>Bahasa Melayu</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-light-blue"
+                  style="width: 100%"
+                >
+                  100%
+                </div>
+              </div>
+              <p>English</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-light-blue"
+                  style="width: 90%"
+                >
+                  90%
+                </div>
+              </div>
+
+              <br />
+            </div>
+          </div>
+          <br />
+
+          <!-- End Left Column -->
+        </div>
+
+
+        <!-- Right Column -->
+        
+        <div class="w3-twothird">
+
+          <button type="button" class="collapsible" id="education">Education Section</button>
+          <div class="content">
+          <div
+            class="w3-container w3-card w3-white w3-margin-bottom"
+            
+          >
+            <h2 class="w3-text-black w3-padding-16">
+              <i
+                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-indigo"
+              ></i
+              >Education
+            </h2>
+            <div class="w3-container">
+              <h5 class="w3-text-black">
+                <img src="./images/UUM Logo.png" style="width: 5%" /><i
+                  class="w3-margin-right"
+                ></i
+                ><b>Universiti Utara Malaysia</b>
+              </h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 -
+                <span class="w3-tag w3-indigo w3-round">Current</span>
+              </h6>
+              <p>Bachelor of Science with Honours (Information Technology)</p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-text-black">
+                <img src="./images/KMJ Logo.png" style="width: 5%" /><i
+                  class="w3-margin-right"
+                ></i
+                ><b>Kolej Matrikulasi Johor</b>
+              </h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2021
+              </h6>
+              <p>Module II: Matriculation</p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-text-black">
+                <img src="./images/SMKSS Logo.png" style="width: 5%" /><i
+                  class="w3-margin-right"
+                ></i
+                ><b>SMK Seri Sembrong</b>
+              </h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018
+              </h6>
+              <p>Sijil Pelajaran Malaysia</p>
+            </div>
           </div>
         </div>
         
-        <div class="w3-container w3-indigo" id="profile">
-          <p>Information Technology student.
-            I consider my self a responsible and orderly person.
-            I am looking forward for my great experience with your team.</p>
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-light-blue"></i>Full-time Student</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-light-blue"></i>Kluang, Johor</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-light-blue"></i>hanisnik@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-light-blue"></i>017-440 7540</p>
-          <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-light-blue"></i>Skills</b></p>
-          <p>Coding</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-light-blue" style="width:80%">80%</div>
+          <button type="button" class="collapsible" id="project">Project Section</button>
+          <div class="content">
+          <div
+            class="w3-container w3-card w3-white w3-margin-bottom"
+            
+          >
+            <h2 class="w3-text-black w3-padding-16">
+              <i
+                class="fa fa-book fa-fw w3-margin-right w3-xxlarge w3-text-indigo"
+              ></i
+              >Final Year Project
+            </h2>
+            <div class="w3-container">
+              <h5 class="w3-text-black">
+                <b>Smart Dental Appointment Booking System (SDABS)</b>
+              </h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2023
+                - <span class="w3-tag w3-indigo w3-round">Current</span>
+              </h6>
+              <p>
+                The Smart Dental Appointment Booking System (SDABS) is a
+                web-based platform designed to streamline the appointment
+                scheduling process for patients, particularly students at
+                Universiti Utara Malaysia (UUM), with dentists at Pusat
+                Kesihatan UUM (PKU). The system aims to provide a user-friendly
+                interface for patients to schedule appointments online, reducing
+                wait times and improving overall efficiency.
+              </p>
+            </div>
           </div>
-          <p>Routing Network</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-light-blue" style="width:80%">80%</div>
-          </div>
-          <p>Network Configuration</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-light-blue" style="width:70%">70%</div>
-          </div>
-          <p>Troubleshooting</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-light-blue" style="width:50%">50%</div>
-          </div>
-          <br>
-          <hr>
-
-          <p class="w3-large"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-light-blue"></i>Languages</b></p>
-          <p>Bahasa Melayu</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-light-blue" style="width:100%">100%</div>
-          </div>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-light-blue" style="width:90%">90%</div>
-          </div>
-
-          <br>
         </div>
-      </div><br>
 
-    <!-- End Left Column -->
+          <button type="button" class="collapsible" id="job">Job Experience Section</button>
+          <div class="content">
+          <div class="w3-container w3-card w3-white w3-margin-bottom" >
+            <h2 class="w3-text-black w3-padding-16">
+              <i
+                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"
+              ></i
+              >Job Experience
+            </h2>
+            <div class="w3-container">
+              <h5 class="w3-text-black">
+                <img src="./images/PizzaHut Logo.png" style="width: 5%" /><i
+                  class="w3-margin-right"
+                ></i
+                ><b>Pizza Hut</b>
+              </h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2023 -
+                Oct 2023
+              </h6>
+              <p>
+                - Provided excellent customer service, ensuring accurate orders
+                and timely delivery in a fast-paced environment.
+              </p>
+              <p>
+                - Utilized POS systems to process transactions efficiently and
+                accurately.
+              </p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-text-black">
+                <img src="./images/Marrybrown Logo.png" style="width: 5%" /><i
+                  class="w3-margin-right"
+                ></i
+                ><b>Marrybrown Sdn Bhd</b>
+              </h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2021 -
+                Sep 2021
+              </h6>
+              <p>
+                - Addressed customer inquiries and resolved complaints promptly,
+                demonstrating strong problem-solving skills.
+              </p>
+              <p>
+                - Collaborated with team members to maintain a clean and
+                organized workspace, fostering a positive working environment.
+              </p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-text-black">
+                <img src="./images/MBO Logo.jpg" style="width: 5%" /><i
+                  class="w3-margin-right"
+                ></i
+                ><b>MBO Cinemas</b>
+              </h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2019 -
+                May 2019
+              </h6>
+              <p>
+                - Demonstrated strong communication skills when addressing
+                customer inquiries and resolving issues in a timely manner.
+              </p>
+              <p>
+                - Quickly adapted to new tasks and procedures, contributing to
+                the efficiency of daily operations.
+              </p>
+              <br />
+            </div>
+          </div>
+        </div>
+        
+
+          <!-- End Right Column -->
+        </div>
+
+        <!-- End Grid -->
+      </div>
+
+      <!-- End Page Container -->
     </div>
 
-    <!-- Right Column -->
-    <div class="w3-twothird">
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom" id = "education">
-        <h2 class="w3-text-black w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-text-black"><img src = "./images/UUM Logo.png" style = "width:5%" ><i class = "w3-margin-right"></i><b>Universiti Utara Malaysia</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 - <span class="w3-tag w3-indigo w3-round">Current</span></h6>
-          <p>Bachelor of Science with Honours (Information Technology)</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-text-black"><img src = "./images/KMJ Logo.png" style = "width:5%" ><i class = "w3-margin-right"></i><b>Kolej Matrikulasi Johor</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2021</h6>
-          <p>Module II: Matriculation</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-text-black"><img src = "./images/SMKSS Logo.png" style = "width:5%" ><i class = "w3-margin-right"></i><b>SMK Seri Sembrong</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>
-          <p>Sijil Pelajaran Malaysia </p>
-        </div>
-      </div>
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom" id="project">
-        <h2 class="w3-text-black w3-padding-16"><i class="fa fa-book fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Final Year Project</h2>
-        <div class="w3-container">
-          <h5 class="w3-text-black"><b>Smart Dental Appointment Booking System (SDABS)</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2023 - <span class="w3-tag w3-indigo w3-round">Current</span></h6>
-          <p>The Smart Dental Appointment Booking System (SDABS) is a web-based platform designed to streamline the appointment scheduling process for patients, particularly students at Universiti Utara Malaysia (UUM), with dentists at Pusat Kesihatan UUM (PKU). The system aims to provide a user-friendly interface for patients to schedule appointments online, reducing wait times and improving overall efficiency.</p>
-        </div>
-      </div>
+    <footer class="w3-container w3-indigo w3-center w3-margin-top" id="contact">
+      <p>Find me on social media.</p>
+      <a
+        href="https://www.facebook.com/profile.php?id=61550534147694&mibextid=ZbWKwL"
+        ><i class="fa fa-facebook-official w3-hover-text-black"></i
+      ></a>
+      <a href="https://www.instagram.com/nkhnsss?igsh=ZmF4MDI5anprbW0x"
+        ><i class="fa fa-instagram w3-hover-text-black"></i
+      ></a>
+      <a href="https://x.com/01hns92?t=UC5RA-sDgmIg983PDoFP1g&s=09"
+        ><i class="fa fa-twitter w3-hover-text-black"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/nik-mohamad-hanis-a9395311a/"
+        ><i class="fa fa-linkedin w3-hover-text-black"></i
+      ></a>
+      
+    </footer>
+    <script src="index.js"></script> 
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+      </script>
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom" id="job">
-        <h2 class="w3-text-black w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Job Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-text-black"><img src = "./images/PizzaHut Logo.png" style = "width:5%" ><i class = "w3-margin-right"></i><b>Pizza Hut</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2023 - Oct 2023</h6>
-          <p>- Provided excellent customer service, ensuring accurate orders and timely delivery in a fast-paced environment.</p>
-          <p>- Utilized POS systems to process transactions efficiently and accurately.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-text-black"><img src = "./images/Marrybrown Logo.png" style = "width:5%" ><i class = "w3-margin-right"></i><b>Marrybrown Sdn Bhd</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2021 - Sep 2021</h6>
-          <p>- Addressed customer inquiries and resolved complaints promptly, demonstrating strong problem-solving skills.</p>
-          <p>- Collaborated with team members to maintain a clean and organized workspace, fostering a positive working environment.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-text-black"><img src = "./images/MBO Logo.jpg" style = "width:5%" ><i class = "w3-margin-right"></i><b>MBO Cinemas</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2019 - May 2019</h6>
-          <p>- Demonstrated strong communication skills when addressing customer inquiries and resolving issues in a timely manner.</p>
-          <p>- Quickly adapted to new tasks and procedures, contributing to the efficiency of daily operations.</p><br>
-        </div>
-      </div>
 
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
-
-<footer class="w3-container w3-indigo w3-center w3-margin-top" id = "contact">
-  <p>Find me on social media.</p>
-  <a href="https://www.facebook.com/profile.php?id=61550534147694&mibextid=ZbWKwL"><i class="fa fa-facebook-official w3-hover-text-black"></i></a>
-  <a href="https://www.instagram.com/nkhnsss?igsh=ZmF4MDI5anprbW0x"><i class="fa fa-instagram w3-hover-text-black"></i></a>
-  <a href="https://x.com/01hns92?t=UC5RA-sDgmIg983PDoFP1g&s=09"><i class="fa fa-twitter w3-hover-text-black"></i></a>
-  <a href="https://www.linkedin.com/in/nik-mohamad-hanis-a9395311a/"><i class="fa fa-linkedin w3-hover-text-black"></i></a>
-</footer>
-
-</body>
+  </body>
 </html>
